@@ -1,15 +1,16 @@
 import os
 
-def get_input():
+
+def get_input() -> list[str]:
     with open(__file__.rstrip("main.py") + "input.txt", "r") as f:
         return f.readlines()
 
 
-def solve_a(input):
+def solve_a(input: list[str]):
     pass
 
 
-def solve_b(input):
+def solve_b(input: list[str]):
     pass
 
 
